@@ -9,20 +9,20 @@ app.get('/', function (req, res) {
 })
 
 //projets
-app.get('/maths', function (req, res) {
-    res.sendFile(__dirname + '/files/html/projets/maths.html');
+app.get('/Veillethematique', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/Veillethematique.html');
 })
-app.get('/psu', function (req, res) {
-    res.sendFile(__dirname + '/files/html/projets/psu.html');
+app.get('/ppe', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/ppe.html');
 })
-app.get('/shell', function (req, res) {
-    res.sendFile(__dirname + '/files/html/projets/shell.html');
+app.get('/programmation', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/programmation.html');
 })
-app.get('/cpe', function (req, res) {
-    res.sendFile(__dirname + '/files/html/projets/cpe.html');
+app.get('/projetentreprise', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/projetentreprise.html');
 })
-app.get('/timeline', function (req, res) {
-    res.sendFile(__dirname + '/files/html/projets/timeline.html');
+app.get('/competence', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/competence.html');
 })
 
 //css
