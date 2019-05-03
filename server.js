@@ -24,7 +24,12 @@ app.get('/projetentreprise', function (req, res) {
 app.get('/competence', function (req, res) {
     res.sendFile(__dirname + '/files/html/projets/competence.html');
 })
-
+app.get('/Entreprise', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/Entreprise.html');
+})
+app.get('/CV', function (req, res) {
+    res.sendFile(__dirname + '/files/html/projets/CV.html');
+})
 //css
 app.get('/creative.min.css', function (req, res) {
     res.sendFile(__dirname + '/files/css/creative.min.css');
